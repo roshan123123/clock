@@ -1,0 +1,59 @@
+.clock{
+  position: relative;
+  width:40vw;
+  height:40vw;
+
+  margin:auto;
+background: url("clock.jpg");
+border-style: dashed;
+
+background-size: 100%;
+border-radius: 50%;
+}
+
+.hour {
+    background: black;
+    position: absolute;
+    width: 1%;
+    height: 20%;
+    left: 50.6%;
+    top: 30%;
+    transform-origin: bottom;
+}
+
+
+
+.minute{
+    position: absolute;
+    background: black;
+    height: 25%;
+    width: 0.8%;
+    top: 25%;
+    left: 50.63%;
+      transform-origin: bottom;
+
+}
+.second
+{
+  background: black;
+height: 30%;
+width: 0.3%;
+top: 20%;
+left: 50.83%;
+position: absolute;
+  transform-origin: bottom;
+
+
+}
+body
+{
+  background-image: url("bd.png");
+}
+.greet
+{text-align: center;
+  font-style: italic;
+color: white;
+  /* display: inline-block; */
+
+  font-size: 500%;
+}

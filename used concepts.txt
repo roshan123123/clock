@@ -1,0 +1,11 @@
+background-size: 100%;//to make the size of background as large as div
+background: url("clock.jpg"); to set background image
+
+*******************javascript******************************
+Alert "Hello" every 3 seconds (3000 milliseconds):
+
+setInterval(function(){ alert("Hello"); }, 3000);
+
+new date() will return a date object initialised to current date
+var n=new Date();
+var p=d.getHours; or getMinutes,getSeconds
